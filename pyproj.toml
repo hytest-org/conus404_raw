@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]   # , "setuptools-scm", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "conus404-raw"
+name = "conus404_raw"
 description = "Utilities for creating cloud-optimized datasets from the CONUS404 model output"
 readme = "README.md"
 dynamic = ["version"]
@@ -27,7 +27,7 @@ dependencies = ["dask",
     "zarr", ]
 
 [project.urls]
-Repository = "https://github.com/hytest-org/conus404-raw.git"
+Repository = "https://github.com/hytest-org/conus404_raw.git"
 
 #[project.scripts]
 #convert_params = "pyPRMS.utilities.convert_params:main"
@@ -37,7 +37,7 @@ include-package-data = false
 zip-safe = false
 
 [tool.setuptools.dynamic]
-version = {attr = "conus404-raw.version.__version__"}
+version = {attr = "conus404_raw.version.__version__"}
 
 [tool.setuptools.packages.find]
-include = ["conus404-raw", "conus404-raw.*"]
+include = ["conus404_raw", "conus404_raw.*"]

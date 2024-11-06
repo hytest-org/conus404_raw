@@ -3,7 +3,7 @@ minor = 2
 micro = 0
 __version__ = f"{major}.{minor}.{micro}"
 
-__pakname__ = "conus404-raw"
+__pakname__ = "conus404_raw"
 
 # edit author dictionary as necessary (in order of commits after Bakker and Post)
 author_dict = {
